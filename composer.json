@@ -3,7 +3,7 @@
     "license": "MIT",
     "description": "Bundle that adds ability to use EAV Data Model pattern",
     "type": "symfony-bundle",
-    "varsion": "0.1",
+    "version": "0.1",
     "authors": [
         {
             "name": "Stanislav Drozdov",
@@ -16,12 +16,6 @@
         "doctrine/orm": "^2.5",
         "jms/serializer-bundle": "^1.1"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:oms-tng/oms-code-quality.git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "EavBundle\\": ""
