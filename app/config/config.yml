@@ -1,0 +1,6 @@
+framework:
+    secret: "123"
+    validation: ~
+    csrf_protection: false
+    form:
+        enabled: true
