@@ -12,14 +12,6 @@ services:
         tags:
             - { name: doctrine.event_subscriber }
 
-    eav.service.grid:
-        class: EavBundle\Service\EavGrid
-        calls:
-            - [setTranslator, ['@translator.default']]
-            - [setDirector, ['@grid.director']]
-            - [setGridBuilder, ['@grid.builder.jsgrid']]
-            - [setColumnFactory, ['@grid.column_factory']]
-
     eav.query_filter_factory:
         class: EavBundle\Service\Query\Filter\Factory
 
